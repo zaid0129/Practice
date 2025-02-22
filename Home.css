@@ -391,7 +391,18 @@ p {
 
 /* --------------------BANNER-4------------------MEDIA QUERY------------- */
 
-
+@media (max-width: 600px) {
+    .room-card {
+        height: 200px;
+    }
+    .room-info {
+        left: 10px;
+    }
+    .price-tag {
+        top: 5px;
+        right: 5px;
+    }
+}
 
 
 
