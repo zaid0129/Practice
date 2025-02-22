@@ -414,8 +414,8 @@ p {
         left: 10px;
     }
     .price-tag {
-        top: 5px;
-        right: 5px;
+        /* top: 5px;
+        right: 5px; */
     }
 }
 
