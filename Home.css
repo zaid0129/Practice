@@ -357,6 +357,13 @@ p {
     text-decoration: none;
     border-radius: 10px;
     overflow: hidden;
+    transition: transform 0.3s ease;
+    filter: brightness(1);
+    cursor: pointer;
+    &:hover {
+        transform: scale(1.05);
+        filter: brightness(1);
+    }
 }
 .room-card::before {
     content: "";
