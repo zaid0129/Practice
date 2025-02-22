@@ -408,6 +408,8 @@ p {
 
 
 /* ----------------------------BANNER-3--------------MEDIA QUERY----------------------- */
+
+
 @media (max-width: 768px) {
     .top-section {
         flex-direction: column;
