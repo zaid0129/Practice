@@ -410,7 +410,7 @@ p {
 
 /* Background Section */
 .pricing-section {
-    background: url('background.jpg') no-repeat center center/cover;
+    background: url('./images/banner-5\ bimg.jpeg') no-repeat center center/cover;
     padding: 80px 20px;
     text-align: center;
     color: white;
