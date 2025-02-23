@@ -619,6 +619,13 @@ footer {
     cursor: pointer;
 }
 
+form input {
+    width: 100px;
+    height: 50px;
+    /* margin-right: 5px; */
+    border-radius: 5px;
+}
+
 /* --------------------FOOTER------------------MEDIA QUERY------------- */
 
 
