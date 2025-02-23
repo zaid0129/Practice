@@ -514,6 +514,12 @@ button:hover {
     font-weight: bold;
 }
 
+
+
+/* --------------------BANNER-5------------------MEDIA QUERY------------- */
+
+
+
 /* Responsive Design */
 @media (max-width: 768px) {
     .pricing-cards {
