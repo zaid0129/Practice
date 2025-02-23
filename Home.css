@@ -620,10 +620,12 @@ footer {
 }
 
 form input {
-    width: 100px;
-    height: 50px;
-    /* margin-right: 5px; */
-    border-radius: 5px;
+    width: 100%;
+    background-color: #f9f9f9;
+    border: 1px solid #f1f1f1;
+    border-radius: 0px;
+    margin-top: 20px;
+    color: #878787;
 }
 
 /* --------------------FOOTER------------------MEDIA QUERY------------- */
