@@ -491,6 +491,15 @@ button:hover {
     background: #a67c52;
 }
 
+
+.black{
+    background-color: black;
+}
+
+.black:hover {
+    background: #333;
+}
+
 /* Special Badge */
 .badge {
     position: absolute;
