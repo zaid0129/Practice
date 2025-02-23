@@ -408,6 +408,118 @@ p {
 /* -------------------BANNER-3-------------------------------- */
 
 
+/* Background Section */
+.pricing-section {
+    background: url('background.jpg') no-repeat center center/cover;
+    padding: 80px 20px;
+    text-align: center;
+    color: white;
+}
+
+/* Container */
+.pricing-container {
+    max-width: 1100px;
+    margin: auto;
+}
+
+/* Heading */
+.pricing-container h4 {
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    opacity: 0.7;
+}
+
+.pricing-container h2 {
+    font-size: 36px;
+    margin: 10px 0 40px;
+}
+
+/* Pricing Cards */
+.pricing-cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+/* Single Card */
+.card {
+    background: white;
+    color: black;
+    padding: 30px;
+    width: 300px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Special Middle Card */
+.card.special {
+    background: #c49a6c;
+    color: white;
+    position: relative;
+    transform: scale(1.1);
+}
+
+/* Price */
+.price {
+    font-size: 28px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.price span {
+    font-size: 16px;
+    font-weight: normal;
+    opacity: 0.7;
+}
+
+/* Button */
+button {
+    background: #c49a6c;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+button:hover {
+    background: #a67c52;
+}
+
+/* Special Badge */
+.badge {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: white;
+    color: #c49a6c;
+    padding: 5px 10px;
+    font-size: 12px;
+    border-radius: 50%;
+    font-weight: bold;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .pricing-cards {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        width: 90%;
+    }
+
+    .card.special {
+        transform: scale(1);
+    }
+}
+
 
 
 
