@@ -584,12 +584,19 @@ footer {
     gap: 10px;
     justify-content: center;
     margin-top: 10px;
+    gap: 30px;
 }
 
-.footer-social img {
-    width: 24px;
-    height: 24px;
+.social-icons a {
+    color: white;
+    font-size: 25px;
+
 }
+
+.social-icons a:hover {
+    color: #a67c52;
+}
+
 
 /* Newsletter */
 .footer-newsletter form {
