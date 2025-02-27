@@ -177,6 +177,47 @@ form input {
 }
 
 
+
+
+/* ---------------------------NAVIGATION BAR--------------------MEDIA QUERY------- */
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    nav ul {
+        flex-direction: column;
+        padding: 10px 0;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* --------------------FOOTER------------------MEDIA QUERY------------- */
 
 
@@ -200,38 +241,5 @@ form input {
     .footer-newsletter input {
         width: 100%;
         margin-bottom: 10px;
-    }
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* ---------------------------NAVIGATION BAR--------------------MEDIA QUERY------- */
-
-/* Responsive Design */
-@media screen and (max-width: 768px) {
-    header {
-        flex-direction: column;
-        text-align: center;
-    }
-
-    nav ul {
-        flex-direction: column;
-        padding: 10px 0;
-    }
-
-    nav ul li {
-        margin: 10px 0;
     }
 }
