@@ -1,0 +1,36 @@
+{
+    "hotel": [
+      {
+        "name": "viplove sana",
+        "age": 23,
+        "city": "bhopal",
+        "aadhar": "97972983479834y4",
+        "number": 8085212206,
+        "fees": "4000",
+        "person": "7",
+        "id": "fe24"
+      },
+      {
+        "name": "viplove sana",
+        "age": 23,
+        "city": "bhopal",
+        "aadhar": "97972983479834y4",
+        "number": 8085212206,
+        "fees": "4000",
+        "person": "7",
+        "id": "790d"
+      },
+      {
+        "id": "6220",
+        "name": "viplove sana",
+        "age": "23",
+        "city": "bhopal",
+        "aadhar": "9874943209i0",
+        "number": "8085212206",
+        "person": "3",
+        "appointment": "2025-02-27",
+        "fees": 2000
+      }
+   ]
+  }
+  
