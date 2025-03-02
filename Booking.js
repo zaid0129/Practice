@@ -35,7 +35,7 @@ let fetchData=async()=>{
         let inpaadhar = document.querySelector("#aadhar").value;
         let inpnum = document.querySelector("#number").value;
         let inpperson = document.querySelector("#Person").value;
-        let inpdate = document.querySelector("#opponitment").value;
+        let inpdate = document.querySelector("#roombook").value;
 
         let url ='http://localhost:3000/hotel'
         fetch(url, { 
