@@ -77,7 +77,7 @@ let fetchData=async()=>{
 
         enter name : <input type="text" id="upname" value="${data.name}"><br><br>
 
-          enter name : <input type="text" id="upage" value="${data.age}"><br><br>
+        enter name : <input type="text" id="upage" value="${data.age}"><br><br>
 
 
         `
