@@ -57,7 +57,7 @@ let fetchData=async()=>{
             })
         })
 
-        location.href = "crud.html" 
+        location.href = "Show.html" 
         return false
 
     }
