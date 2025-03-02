@@ -20,14 +20,14 @@ let fetchData=async()=>{
     })
     }
     // fetchData()
-    
+
     let deletee = (id)=>{
-    
-        let url = http://localhost:3000/hotel/${id}
-    
+
+        let url = `http://localhost:3000/hotel/${id}`;
+
         fetch(url,{method:"DELETE"})
     }
-    
+
     let userinput=()=>{
         let inpname = document.querySelector("#name").value;
         let inpage = document.querySelector("#age").value;
@@ -36,7 +36,7 @@ let fetchData=async()=>{
         let inpnum = document.querySelector("#number").value;
         let inpperson = document.querySelector("#Person").value;
         let inpdate = document.querySelector("#opponitment").value;
-    
+
         let url ='http://localhost:3000/hotel'
         fetch(url, { 
             method: "POST",
@@ -52,36 +52,35 @@ let fetchData=async()=>{
                 person: inpperson,
                 appointment: inpdate,
                 fees: 2000,
-              
-    
+
+
             })
         })
-    
+
         location.href = "crud.html" 
         return false
-         
+
     }
-    
+
     let formfill =async(id)=>{
-    
-        let url = http://localhost:3000/hotel/${id}
-    
+
+        let url = `http://localhost:3000/hotel/${id}`
+
         let res = await fetch(url,{method:"GET"}) 
-    
+
         let data = await res.json()
-    
+
         console.log(data);
-    
-    
+
+
         let formdata = `
-    
+
         enter name : <input type="text" id="upname" value="${data.name}"><br><br>
-    
+
           enter name : <input type="text" id="upage" value="${data.age}"><br><br>
-    
-    
+
+
         `
         document.querySelector("#show").innerHTML=formdata
-    
+
     }
-    
