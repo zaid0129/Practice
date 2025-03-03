@@ -271,6 +271,18 @@ p {
 }
 
 
+/* ------------------------BOOKING FORM--------------- MEDIA QUERY---- */
+
+@media (max-width: 768px) {
+    #container {
+        flex-direction: column;
+    }
+
+    .card2 {
+        height: 200px;
+    }
+}
+
 
 
 
