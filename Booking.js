@@ -50,14 +50,14 @@ let fetchData=async()=>{
                     aadhar: inpaadhar,
                     number: inpnum,
                     person: inpperson,
-                    appointment: inpdate,
+                    date: inpdate,
                     fees: 2000,
                   
         
                 })
             })
         
-            location.href = "crud.html" 
+            location.href = "Show.html" 
             return false
              
         }
@@ -94,7 +94,7 @@ let fetchData=async()=>{
                     <option value="4">Four</option>
                 </select><br><br>
         
-                  <input type="submit" value="Book your Appointment" onclick="return finaleupdate('${data.id}')" >
+                  <input type="submit" value="Book your Room" onclick="return finaleupdate('${data.id}')" >
         
         
             `
