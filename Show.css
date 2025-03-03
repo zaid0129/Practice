@@ -265,14 +265,23 @@ p {
 
 /* ------------------------------SHOW--------------------MEDIA QUERY------------------- */
 
+@media (max-width: 768px) {
+    table {
+        display: block;
+        overflow-x: auto;
+        white-space: nowrap;
+    }
 
+    th, td {
+        padding: 10px;
+        font-size: 14px;
+    }
 
-
-
-
-
-
-
+    button {
+        font-size: 12px;
+        padding: 6px 10px;
+    }
+}
 
 
 
