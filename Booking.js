@@ -11,9 +11,9 @@ let fetchData=async()=>{
         <td>${e.city}</td>
         <td>${e.aadhar}</td>
         <td>${e.number}</td>
-        <td>${e.fees}</td>
+        <td>${e.fair}</td>
         <td>${e.person}</td>
-        <td>${e.fees*e.person}</td>
+        <td>${e.fair*e.person}</td>
         <td onclick="deletee('${e.id}')">cancel</td>
         <td onclick="formfill('${e.id}')">update</td>
         </tbody>`
@@ -51,7 +51,7 @@ let fetchData=async()=>{
                     number: inpnum,
                     person: inpperson,
                     date: inpdate,
-                    fees: 2000,
+                    fair: 2000,
                   
         
                 })
@@ -125,7 +125,7 @@ let fetchData=async()=>{
                     number: inpnum,
                     person: inpperson,
                     
-                    fees: 2000
+                    fair: 2000
                   
         
                 })
