@@ -84,7 +84,8 @@ nav ul li a {
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     max-width: 700px;
-    width: 100%;
+    /* width: 100%; */
+     width: 70vh;
 }
 
 /* Form Card */
@@ -116,12 +117,12 @@ form input[type="submit"]:hover {
 }
 
 /* Second Card (for future content or images) */
-.card2 {
+/* .card2 {
     flex: 1;
     background: #ddd;
     border-radius: 5px;
     min-height: 250px;
-}
+} */
 
 
 
@@ -278,9 +279,9 @@ p {
         flex-direction: column;
     }
 
-    .card2 {
+    /* .card2 {
         height: 200px;
-    }
+    } */
 }
 
 
