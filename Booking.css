@@ -188,7 +188,7 @@ footer {
 } */
 
 /* Social Media Icons */
-/* .footer-social .social-icons {
+.footer-social .social-icons {
     display: flex;
     gap: 10px;
     justify-content: center;
@@ -204,7 +204,7 @@ footer {
 
 .social-icons a:hover {
     color: #a67c52;
-} */
+}
 
 
 /* Newsletter */
