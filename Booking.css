@@ -150,12 +150,12 @@ footer {
 }
 
 /* Google Map */
-/* .footer-map iframe {
+.footer-map iframe {
     width: 100%;
     max-width: 350px;
     height: 250px;
     border: none;
-} */
+}
 
 /* Contact & Message */
 /* .footer-contact, .footer-message {
