@@ -61,6 +61,74 @@ nav ul li a {
  */
 
 
+
+/* ----------------------------------- BOOKING-FORM------------------------------------ */
+
+
+/* Appointment Section */
+.apoint {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f8f8f8;
+    padding: 20px;
+}
+
+/* Container */
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 700px;
+    width: 100%;
+}
+
+/* Form Card */
+.card1 {
+    flex: 1;
+    padding: 20px;
+}
+
+/* Input Fields */
+form input, form select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Submit Button */
+form input[type="submit"] {
+    background: #c49a6c;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+form input[type="submit"]:hover {
+    background: #a07c54;
+}
+
+/* Second Card (for future content or images) */
+.card2 {
+    flex: 1;
+    background: #ddd;
+    border-radius: 5px;
+    min-height: 250px;
+}
+
+
+
+
+
+
 /* ------------------------------FOOTER-------------------------------- */
 
 
