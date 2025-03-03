@@ -170,7 +170,7 @@ footer {
 }
 
 /* Bottom Footer Section */
-/* .footer-bottom {
+.footer-bottom {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -178,7 +178,7 @@ footer {
     margin: 40px auto 0;
     gap: 20px;
     text-align: center;
-} */
+}
 
 /* Phone Support */
 /* .footer-info .phone-number {
