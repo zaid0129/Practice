@@ -254,7 +254,7 @@ p {
 /* ---------------------------NAVIGATION BAR--------------------MEDIA QUERY------- */
 
 /* Responsive Design */
-/* @media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
     header {
         flex-direction: column;
         text-align: center;
@@ -269,7 +269,7 @@ p {
         margin: 10px 0;
     }
 }
- */
+
 
 
 
@@ -295,7 +295,7 @@ p {
 
 
 /* Responsive Design */
-/* @media (max-width: 768px) {
+@media (max-width: 768px) {
     .footer-container, .footer-bottom {
         flex-direction: column;
         align-items: center;
@@ -314,4 +314,4 @@ p {
         width: 100%;
         margin-bottom: 10px;
     }
-} */
+}
