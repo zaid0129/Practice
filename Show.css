@@ -88,22 +88,22 @@ tr, th {
 }
 
 /* Table Rows */
-tbody tr:nth-child(even) {
+/* tbody tr:nth-child(even) {
     background: #f2f2f2;
-}
+} */
 
-tbody tr:hover {
+/* tbody tr:hover {
     background: #ddd;
-}
+} */
 
 /* Buttons (Cancel & Update) */
-button {
+/* button {
     padding: 8px 12px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
     font-size: 14px;
-}
+} */
 
 .cancel-btn {
     background: red;
@@ -115,9 +115,9 @@ button {
     color: white;
 }
 
-button:hover {
+/* button:hover {
     opacity: 0.8;
-}
+} */
 
 
 /* ------------------------------FOOTER-------------------------------- */
