@@ -128,7 +128,6 @@ form input[type="submit"]:hover {
 
 
 
-
 /* ------------------------------FOOTER-------------------------------- */
 
 
@@ -181,11 +180,11 @@ footer {
 }
 
 /* Phone Support */
-/* .footer-info .phone-number {
+.footer-info .phone-number {
     font-size: 20px;
     font-weight: bold;
     margin-top: 5px;
-} */
+}
 
 /* Social Media Icons */
 .footer-social .social-icons {
