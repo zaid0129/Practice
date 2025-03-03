@@ -184,3 +184,65 @@ p {
     font-size: 16px;
     color: #555;
 }
+
+
+
+/* ---------------------------NAVIGATION BAR--------------------MEDIA QUERY------- */
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    nav ul {
+        flex-direction: column;
+        padding: 10px 0;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+}
+
+
+/* ------------------------------SHOW--------------------MEDIA QUERY------------------- */
+
+
+
+
+
+
+
+
+
+
+
+
+/* --------------------FOOTER------------------MEDIA QUERY------------- */
+
+
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .footer-container, .footer-bottom {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-contact, .footer-message, .footer-map iframe {
+        width: 90%;
+    }
+
+    .footer-newsletter form {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-newsletter input {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
+
