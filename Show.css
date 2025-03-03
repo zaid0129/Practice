@@ -81,7 +81,7 @@ thead {
     color: white;
 }
 
-th, td {
+tr, th {
     padding: 15px;
     border: 1px solid #ccc;
     text-align: center;
@@ -265,21 +265,24 @@ p {
 
 /* ------------------------------SHOW--------------------MEDIA QUERY------------------- */
 
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
     table {
         display: block;
         overflow-x: auto;
         white-space: nowrap;
+        flex-direction: column;
     }
 
-    th, td {
+    tr, th {
         padding: 10px;
         font-size: 14px;
+        /* flex-direction: column; */
     }
 
     button {
         font-size: 12px;
         padding: 6px 10px;
+        /* flex-direction: column; */
     }
 }
 
