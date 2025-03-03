@@ -63,6 +63,62 @@ nav ul li a {
 /* -----------------------------SHOW--------------------------- */
 
 
+/* Table Styling */
+table {
+    width: 100%;
+    max-width: 900px;
+    margin: auto;
+    background: white;
+    border-collapse: collapse;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+/* Table Header */
+thead {
+    background: #c49a6c;
+    color: white;
+}
+
+th, td {
+    padding: 15px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+/* Table Rows */
+tbody tr:nth-child(even) {
+    background: #f2f2f2;
+}
+
+tbody tr:hover {
+    background: #ddd;
+}
+
+/* Buttons (Cancel & Update) */
+button {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.cancel-btn {
+    background: red;
+    color: white;
+}
+
+.update-btn {
+    background: green;
+    color: white;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
 
 /* ------------------------------FOOTER-------------------------------- */
 
